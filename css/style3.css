@@ -38,16 +38,22 @@ header {
     font-size: 0.9rem;
     color: #ef4444;
 }
-
+/* Hamburger Button */
 .hamburger {
     display: none;
+    /* Caché par défaut sur grand écran */
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 1100;
 }
 
 .hamburger span {
     display: block;
     width: 25px;
     height: 3px;
-    background-color: #e5e7eb;
+    background-color: #ef4444;
     margin: 5px 0;
     transition: all 0.3s ease;
 }
